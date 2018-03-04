@@ -110,7 +110,7 @@ app.get('/submit-name/:name', function(req,res) {
     //get the name from the request
     var name = req.params.name;//todo
     names.push(name);
-    res.send(JSON.stringyfy(names));
+    res.send(JSON.stringify(names));
 });
 
 // Do not change port, otherwise your app won't run on IMAD servers
